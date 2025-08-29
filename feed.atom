@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Google Workspace Status Dashboard Updates</title>
+  <updated>2025-08-29T00:55:23+00:00</updated>
+  <link href="https://www.google.com/appsstatus/dashboard/" rel="alternate" type="text/html"></link>
+  <link href="https://www.google.com/appsstatus/dashboard/en/feed.atom" rel="self"></link>
+  <author>
+    <name>Google Workspace</name>
+  </author>
+  <id>https://www.google.com/appsstatus/dashboard/</id>
+  <entry>
+    <title>RESOLVED: **Summary:**
+Google Voice customers may have been unable to place or receive calls on their Google Voice clients and desk phones
+**Description:**
+Mitigation work is currently underway by our engineering team.
+We do not have an ETA for mitigation at this point.
+We will provide more information by Monday, 2025-08-25 15:00 PDT.
+**Diagnosis / Customer Symptoms:**
+Affected customers may have experienced dropped calls and connection issues intermittently.
+**Workaround:**
+None at this time.</title>
+    <link href="https://www.google.com/appsstatus/dashboard/incidents/jkx7uigB29SrPe8zwvfZ" rel="alternate" type="text/html"></link>
+    <id>tag:www.google.com,2025:feed:jkx7uigB29SrPe8zwvfZ.QPkPPhNKYqDfRyrKQ4jM</id>
+    <updated>2025-08-29T00:55:23+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2025-08-25 16:25&lt;/strong&gt; and ended at &lt;strong&gt;2025-08-25 20:25&lt;/strong&gt; &lt;span&gt;(times are in &lt;strong&gt;Coordinated Universal Time (UTC)&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;h1&gt;Incident Report&lt;/h1&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 25 August 2025 09:25 US/Pacific&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 25 August 2025 13:25 US/Pacific&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 4 hours&lt;/p&gt;
+&lt;p&gt;On Monday, 25 August 2025, Google Voice customers experienced intermittent dropped calls and connection issues globally for a duration of 4 hours.&lt;/p&gt;
+&lt;p&gt;To our affected customers whose business was impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.&lt;/p&gt;
+&lt;h2&gt;Root Cause&lt;/h2&gt;
+&lt;p&gt;A software update inadvertently caused a massive number of devices to simultaneously connect to a critical component of our voice infrastructure. This surge of connection attempts overwhelmed the component, resulting in server tasks dropping traffic and repeatedly crashing for approximately 4 hours.&lt;/p&gt;
+&lt;p&gt;The issue was compounded because the devices were configured to immediately and repeatedly retry failed connections, creating a feedback loop that intensified the overload.&lt;/p&gt;
+&lt;p&gt;As a result, this core component was unable to process traffic from other clients, including Google Voice. This resulted in intermittent dropped calls and a significant percentage of call failures during the incident’s peak.&lt;/p&gt;
+&lt;h2&gt;Remediation and Prevention&lt;/h2&gt;
+&lt;p&gt;Google engineers were alerted to the issue via an internal monitoring at 07:20 US/Pacific on 25 August and immediately started an investigation. Once the nature and scope of the issue was identified, Google engineers rolled back the software update and increased capacity to the affected servers.These actions successfully mitigated the issue for all affected users by 13:25 US/Pacific.&lt;/p&gt;
+&lt;p&gt;Google is committed preventing a repeat of this issue in the future and is completing the following actions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To prevent service degradation, client applications implement a longer retry backoff upon receiving an HTTP 503 error for connection failures.&lt;/li&gt;
+&lt;li&gt;Improve and update software rollout procedures and tooling to protect against unintentional changes and resulting traffic spikes.&lt;/li&gt;
+&lt;li&gt;Improve capacity planning and server utilization monitoring for the affected servers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We apologize for the length and severity of this incident. We are taking immediate steps to prevent a recurrence and improve reliability in the future.&lt;/p&gt;
+&lt;h2&gt;Detailed Description of Impact&lt;/h2&gt;
+&lt;p&gt;From 09:25 to 13:25 US/Pacific on 25 August 2025, Google Voice customers experienced intermittent dropped calls and connection issues globally for a duration of 4 hours.&lt;/p&gt;
+&lt;p&gt;Both enterprise and consumer users experienced intermittent dropped calls and connection issues across all devices such as mobile, web, and desk phones. At the peak of the incident, call failure rates reached up to 25%, with approximately one call dropped per second due to peer timeouts.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Voice&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: **Summary:**
+Google Voice customers may have been unable to place or receive calls on their Google Voice clients and desk phones
+**Description:**
+Mitigation work is currently underway by our engineering team.
+We do not have an ETA for mitigation at this point.
+We will provide more information by Monday, 2025-08-25 15:00 PDT.
+**Diagnosis / Customer Symptoms:**
+Affected customers may have experienced dropped calls and connection issues intermittently.
+**Workaround:**
+None at this time.</title>
+    <link href="https://www.google.com/appsstatus/dashboard/incidents/jkx7uigB29SrPe8zwvfZ" rel="alternate" type="text/html"></link>
+    <id>tag:www.google.com,2025:feed:jkx7uigB29SrPe8zwvfZ.4Gb6fWyx5VMonicY9Yj8</id>
+    <updated>2025-08-29T00:55:22+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2025-08-25 16:25&lt;/strong&gt; and ended at &lt;strong&gt;2025-08-25 20:25&lt;/strong&gt; &lt;span&gt;(times are in &lt;strong&gt;Coordinated Universal Time (UTC)&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;h1&gt;Mini Incident Report&lt;/h1&gt;
+&lt;p&gt;We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using help article &lt;a href="https://support.google.com/a/answer/1047213"&gt;https://support.google.com/a/answer/1047213&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;(All Times US/Pacific)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident Start:&lt;/strong&gt; 25 August 2025 09:25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incident End:&lt;/strong&gt; 25 August 2025 13:25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 4 hours&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affected Services and Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Voice&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regions/Zones:&lt;/strong&gt; Global&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Voice customers experienced intermittent dropped calls and connection issues globally for a duration of 4 hours. Based on preliminary analysis, the root cause is a software rollout which resulted in increased traffic and overloaded key infrastructure Google uses for voice calls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customer Impact:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Affected customers intermittently experienced dropped calls and connection issues. This issue may have affected our enterprise and consumer account customers across all devices (mobile, web, deskphones or dedicated hardware).&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: Google Voice&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>RESOLVED: Some ChromeOS customers experiencing issues signing on.
+**Description:**
+We are experiencing an issue with ChromeOS M-139.
+Our engineering team continues to investigate the issue.
+We will provide more information by Wednesday, 2025-08-27 13:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Symptoms:**
+Authentication failures are occurring on ChromeOS M-139, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue is also causing 2-Step Verification (2SV) to fail for some users.
+**Workarounds:**
+There are 2 workarounds and you can follow one of them.
+1. Rollback to the previous version M138. Detailed instructions https://support.google.com/chrome/a/answer/12569990.
+OR
+2. Change LoginAuthenticationBehavior (https://chromeenterprise.google/policies/#LoginAuthenticationBehavior) to "Authentication via the default GAIA flow"</title>
+    <link href="https://www.google.com/appsstatus/dashboard/incidents/B6TDyZ3a2dhAg59QcpZE" rel="alternate" type="text/html"></link>
+    <id>tag:www.google.com,2025:feed:B6TDyZ3a2dhAg59QcpZE.JGMQDXFjHveXew258xS8</id>
+    <updated>2025-08-28T21:32:44+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2025-08-19 07:00&lt;/strong&gt; and ended at &lt;strong&gt;2025-08-28 20:20&lt;/strong&gt; &lt;span&gt;(times are in &lt;strong&gt;Coordinated Universal Time (UTC)&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Some ChromeOS customers may have experienced issues signing on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The issue with ChromeOS has been resolved for all affected users as of Thursday, 2025-08-28 13:20 PDT.&lt;/p&gt;
+&lt;p&gt;From preliminary analysis, the issue was triggered by a change in the backend authentication method, which resulted in Single Sign-On (SSO) failures or 2-Step Verification (2SV) to fail for some users.&lt;/p&gt;
+&lt;p&gt;After identifying the root cause, our engineering team immediately halted the release of the affected Chrome OS/Browser version (16328.55.0/139.0.7258.137) to additional devices. The fix was identified and tested, after which it has been successfully deployed in version 16328.65.0/ 139.0.7258.164.&lt;/p&gt;
+&lt;p&gt;Customers previously affected by this issue may update their Chrome OS/Browser versions to 16328.65.0/139.0.7258.164.&lt;/p&gt;
+&lt;p&gt;We thank you for your patience while we worked on resolving the issue.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Symptoms&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authentication failures were occurring on ChromeOS devices with OS/Browser versions 16328.55.0/139.0.7258.137, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue also caused 2-Step Verification (2SV) to fail for some users.&lt;/p&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: ChromeOS&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Some ChromeOS customers experiencing issues signing on.
+**Description:**
+We are experiencing an issue with ChromeOS M-139.
+Our engineering team continues to investigate the issue.
+We will provide more information by Wednesday, 2025-08-27 13:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Symptoms:**
+Authentication failures are occurring on ChromeOS M-139, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue is also causing 2-Step Verification (2SV) to fail for some users.
+**Workarounds:**
+There are 2 workarounds and you can follow one of them.
+1. Rollback to the previous version M138. Detailed instructions https://support.google.com/chrome/a/answer/12569990.
+OR
+2. Change LoginAuthenticationBehavior (https://chromeenterprise.google/policies/#LoginAuthenticationBehavior) to "Authentication via the default GAIA flow"</title>
+    <link href="https://www.google.com/appsstatus/dashboard/incidents/B6TDyZ3a2dhAg59QcpZE" rel="alternate" type="text/html"></link>
+    <id>tag:www.google.com,2025:feed:B6TDyZ3a2dhAg59QcpZE.q2edybyno3SkkGhgk5NE</id>
+    <updated>2025-08-28T21:32:03+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2025-08-19 07:00&lt;/strong&gt; and ended at &lt;strong&gt;2025-08-28 20:20&lt;/strong&gt; &lt;span&gt;(times are in &lt;strong&gt;Coordinated Universal Time (UTC)&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Some ChromeOS customers experiencing issues signing on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This affects only ChromeOS devices on the following OS/Browser Version:
+16328.55.0/139.0.7258.137&lt;/p&gt;
+&lt;p&gt;Mitigation work is taking longer than anticipated.&lt;/p&gt;
+&lt;p&gt;Fix is undergoing automated testing. Once completed, engineering will validate the results and we&amp;#39;ll make the fix available to users.&lt;/p&gt;
+&lt;p&gt;We currently don&amp;#39;t have ETA for the version with the fix to be available.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Thursday, 2025-08-28 17:30 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Symptoms:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authentication failures are occurring on ChromeOS devices with OS/Browser versions 16328.55.0/139.0.7258.137, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue is also causing 2-Step Verification (2SV) to fail for some users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workaround:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are 2 workarounds and you can follow one of them.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Rollback to the previous version M138. Detailed instructions &lt;a href="https://support.google.com/chrome/a/answer/12569990"&gt;https://support.google.com/chrome/a/answer/12569990&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;OR&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Change LoginAuthenticationBehavior (&lt;a href="https://chromeenterprise.google/policies/#LoginAuthenticationBehavior"&gt;https://chromeenterprise.google/policies/#LoginAuthenticationBehavior&lt;/a&gt;) to &amp;#34;Authentication via the default GAIA flow&amp;#34;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: ChromeOS&lt;/p&gt;</summary>
+  </entry><entry>
+    <title>UPDATE: Some ChromeOS customers experiencing issues signing on.
+**Description:**
+We are experiencing an issue with ChromeOS M-139.
+Our engineering team continues to investigate the issue.
+We will provide more information by Wednesday, 2025-08-27 13:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Symptoms:**
+Authentication failures are occurring on ChromeOS M-139, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue is also causing 2-Step Verification (2SV) to fail for some users.
+**Workarounds:**
+There are 2 workarounds and you can follow one of them.
+1. Rollback to the previous version M138. Detailed instructions https://support.google.com/chrome/a/answer/12569990.
+OR
+2. Change LoginAuthenticationBehavior (https://chromeenterprise.google/policies/#LoginAuthenticationBehavior) to "Authentication via the default GAIA flow"</title>
+    <link href="https://www.google.com/appsstatus/dashboard/incidents/B6TDyZ3a2dhAg59QcpZE" rel="alternate" type="text/html"></link>
+    <id>tag:www.google.com,2025:feed:B6TDyZ3a2dhAg59QcpZE.2ZwVCMW44NckBQVdDVEf</id>
+    <updated>2025-08-28T17:21:04+00:00</updated>
+    <summary type="html">&lt;p&gt; Incident began at &lt;strong&gt;2025-08-19 07:00&lt;/strong&gt; and ended at &lt;strong&gt;2025-08-28 20:20&lt;/strong&gt; &lt;span&gt;(times are in &lt;strong&gt;Coordinated Universal Time (UTC)&lt;/strong&gt;).&lt;/span&gt;&lt;/p&gt;&lt;div class="cBIRi14aVDP__status-update-text"&gt;&lt;p&gt;Some ChromeOS customers experiencing issues signing on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This affects only ChromeOS devices on the following OS/Browser Version:
+16328.55.0/139.0.7258.137&lt;/p&gt;
+&lt;p&gt;Mitigation work is currently underway by our engineering team.&lt;/p&gt;
+&lt;p&gt;After identifying the root cause, our engineering team immediately halted the release of the affected version to additional devices. The fix has been identified and tested, and the build for the fix is currently underway.&lt;/p&gt;
+&lt;p&gt;The version with the fix is expected to be available by tomorrow.&lt;/p&gt;
+&lt;p&gt;We will provide an update by Thursday, 2025-08-28 13:30 US/Pacific with current details.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Symptoms:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authentication failures are occurring on ChromeOS devices with OS/Browser versions 16328.55.0/139.0.7258.137, affecting Single Sign-On (SSO) with educational partners Clever and Classlink. The issue is also causing 2-Step Verification (2SV) to fail for some users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workaround:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are 2 workarounds and you can follow one of them.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Rollback to the previous version M138. Detailed instructions &lt;a href="https://support.google.com/chrome/a/answer/12569990"&gt;https://support.google.com/chrome/a/answer/12569990&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;OR&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;Change LoginAuthenticationBehavior (&lt;a href="https://chromeenterprise.google/policies/#LoginAuthenticationBehavior"&gt;https://chromeenterprise.google/policies/#LoginAuthenticationBehavior&lt;/a&gt;) to &amp;#34;Authentication via the default GAIA flow&amp;#34;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;hr&gt;&lt;p&gt;Affected products: ChromeOS&lt;/p&gt;</summary>
+  </entry>
+</feed>
